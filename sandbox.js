@@ -40,18 +40,48 @@
 
 // Break and continue
 
-const scores = [50, 25, 0 , 30, 100, 20, 10];
+// const scores = [50, 25, 0 , 30, 100, 20, 10];
 
-for(let i = 0; i < scores.length; i++){
+// for(let i = 0; i < scores.length; i++){
 
-    if(scores[i] === 0{
-        continue;
-    }
+//     if(scores[i] === 0{
+//         continue;
+//     }
 
-    console.log('your score: ', scores[i]);
+//     console.log('your score: ', scores[i]);
 
-    if(scores[i]=== 100){
-        console.log('congrats, you got the top score!');
-        break;
-    }
+//     if(scores[i]=== 100){
+//         console.log('congrats, you got the top score!');
+//         break;
+//     }
+// }
+
+// switch statments
+// if(grade === 'A'){
+
+// } else if(grade === 'B'{
+
+// } else if(grade === 'C'){
+
+// } else if(grade === 'D'){
+
+// } else if(grade === 'E'){
+
+// } else {
+
+// }
+
+const grade = 'D';
+
+switch(grade){
+    case 'A':
+        console.log('you got an A!');
+    case 'B':
+        onsole.log('you got an B!');
+    case 'C':
+        console.log('you got an C!');
+    case 'D':
+        console.log('you got an A!');
+    case 'E':
+        console.log('you got an A!');
 }
